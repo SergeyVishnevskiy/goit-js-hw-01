@@ -36,10 +36,10 @@ if (invoice3 <= stock) {
 // то значение message будет равно
 // 'На складе недостаточно товаров!' 
 let invoice = 100; 
-const stock = 100;
+// const stock = 100;
 
 // Write code under this line
-const message = "Заказ оформлен, с вами свяжется менеджер";
+// const message = "Заказ оформлен, с вами свяжется менеджер";
 if (invoice <= stock) {
     console.log(message);
 } else {
@@ -57,3 +57,13 @@ if (invoice <= stock) {
 } else {
     console.log('На складе недостаточно товаров!' )
 }
+// let invoice = 100; 
+// const stock = 100;
+
+// // Write code under this line
+// const message = "Заказ оформлен, с вами свяжется менеджер";
+// if (invoice >= stock) {
+//     console.log(message);
+// } else {
+//     console.log('На складе недостаточно товаров!' )
+// }
