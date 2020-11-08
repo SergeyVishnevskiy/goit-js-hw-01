@@ -12,3 +12,25 @@ console.log(firstMessage);
 console.log(secondMessage);
 // 'Выбран «Генератор защитного поля», цена за штуку 2000 кредитов'
 // `Выбран` + ` ` + name + `, цена за штуку` + ` ` + price + ` ` + `кредитов`;
+let invoice = 100; 
+const stock = 100;
+
+// Write code under this line
+const message = "Заказ оформлен, с вами свяжется менеджер";
+if (invoice <= stock) {
+    console.log(message);
+} else {
+    console.log('На складе недостаточно товаров!' )
+}
+invoice = 50;
+if (invoice <= stock) {
+    console.log(message);
+} else {
+    console.log('На складе недостаточно товаров!' )
+}
+invoice = 150;
+if (invoice <= stock) {
+    console.log(message);
+} else {
+    console.log('На складе недостаточно товаров!' )
+}
