@@ -67,3 +67,11 @@ if (invoice <= stock) {
 // } else {
 //     console.log('На складе недостаточно товаров!' )
 // }
+//======Решение задачи=======\\
+const invoice = 100; 
+const stock = 100;
+
+// Write code under this line
+const message = invoice <= stock ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно товаров!";
+
+console.log(message);

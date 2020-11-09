@@ -15,10 +15,28 @@ console.log(secondMessage);
 const invoice = 100; 
 const stock = 100;
 
-const message = 'Заказ оформлен, с вами свяжется менеджер';
+const message = 50 <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно товаров!' ;
+console.log(message);
 
 if (invoice <= stock) {
-    const invoice = 150;
+    console.log(message);
+} else {
+    const message = 'На складе недостаточно товаров!';
+    console.log(message)
+}
+if (50 <= stock) {
+    console.log(message);
+} else {
+    const message = 'На складе недостаточно товаров!';
+    console.log(message)
+}
+if (100 <= stock) {
+    console.log(message);
+} else {
+    const message = 'На складе недостаточно товаров!';
+    console.log(message)
+}
+if (150 <= stock) {
     console.log(message);
 } else {
     const message = 'На складе недостаточно товаров!';
