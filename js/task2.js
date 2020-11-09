@@ -1,4 +1,4 @@
-'use script'
+'use strict'
 const invoice1 = 100; 
 const invoice2 = 50; 
 const invoice3 = 150; 

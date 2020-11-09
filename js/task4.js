@@ -1,4 +1,4 @@
-'user script'
+'use strict'
 
 const orderPieces = 4;
 
